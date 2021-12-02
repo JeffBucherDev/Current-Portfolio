@@ -33,6 +33,7 @@
 			<section id="one" class="main style1">
 				<div class="container">
 					<div class="row gtr-150">
+						<div id="noImageDiv" class="col-6 col-12-medium">
 						<div>
 							<header class="major">
 								<h2>How is your web presence<br />
@@ -41,6 +42,7 @@
 							<p>If someone needs what you provide, will your website draw them in? What will they see if they are on their phone? A responsive & accessible web presence is no longer merely a 'bonus' or 'nice to have' - it is essential.</p>
 
 							<p> It is an honor for me, to offer a chance to be seen on the web for small businesses and individuals around me. Whether that be creating a website for you from the ground up, updating an existing presence for the mobile age, or building a web application for your business. Providing a place for those interested in what you offer, to find and learn about you, is what I bring to the table. How can I help you today?</p>
+						</div>
 						</div>
 						<!-- <div class="col-6 col-12-medium imp-medium">
 							<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
@@ -82,24 +84,28 @@
 			<section id="three" class="main style1 special">
 				<div class="container">
 					<header class="major">
-						<h2>Adipiscing amet consequat</h2>
+						<h2>My Work</h2>
 					</header>
-					<p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+					<p>Here are a couple of my latest projects, I invite you to explore them.</p>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<a href="https://freshfishco.netlify.app/" target="_blank">
+								<span id="ffcoImg" class="image fit"><img href="https://freshfishco.netlify.app/" target="_blank" src="images/FFCO.jpg" alt="Image of home page for Fresh Fish Company" /></span>
+							</a>
+							<h3>Fresh Fish Company</h3>
+							<p>A fully responsive, multi-page website, for a fine dining seafood restaurant.</p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="https://freshfishco.netlify.app/" class="button">View</a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>Magna feugiat lorem</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<a href="https://jessicaandrews.netlify.app/" target="_blank">
+								<span id="plpImg" class="image fit"><img src="images/PLP.jpg" alt="Image of Personal Landing Page" /></span>
+							</a>
+							<h3>Personal Website</h3>
+							<p>A quick, easy to navigate personal website for anyone who needs to showcase information.</p>
 							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="https://jessicaandrews.netlify.app/" target="_blank" class="button">View</a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
@@ -115,19 +121,27 @@
 			</section>
 
 		<!-- Four -->
-			<section id="four" class="main style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Ipsum feugiat consequat?</h2>
-					</header>
-					<p>Sed lacus nascetur ac ante amet sapien.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button wide primary">Sign Up</a></li>
-						<li><a href="#" class="button wide">Learn More</a></li>
-					</ul>
-				</div>
-			</section>
+		<section id="about" class="main style2">
+			<div class="container">
+				<div class="row gtr-150">
+					<div class="col-6 col-12-medium">
+						<div>
+							<header class="major">
+								<h2>I'm a Software Engineer<br />
+								based in Denver, CO</h2>
+							</header>
+							<p>Solving problems while providing simple, elegant solutions that are accessible, is a passion of mine.</p>
 
+							<p>When I'm not writing code, I can be found out hiking in Colorado, taking photos, practicing my French, or on miscellaneous adventures related to food and cheese. My current</p>
+					
+						</div>
+					</div>	
+						<div class="col-6 col-12-medium imp-medium">
+						<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- Five -->
 		<!--
 			<section id="five" class="main style1">
@@ -367,9 +381,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<li><span class="button disabled">Disabled</span></li>
 						</ul>
 					</section>
-
-					<section>
-						<h4>Form</h4>
+				-->
+				<section id="contact">
+					<div id="letsConnect" class="container">
+						<header class="major">
+							<h2>Let's connect!</h2>
+						</header>
+						<p>I am currently accepting new freelance clients, interesting project opportunities, and cat photos.</p>
+						<p>Email me at: <strong>JeffBucherDev@gmail.com</strong><br>
+						Or send me a quick message here:</p>
+					</div>
+					<section id="contactForm">
+						<!-- <h4>Form</h4> -->
 						<form method="post" action="#">
 							<div class="row gtr-uniform gtr-50">
 								<div class="col-6 col-12-xsmall">
@@ -378,7 +401,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<div class="col-6 col-12-xsmall">
 									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
 								</div>
-								<div class="col-12">
+								<!-- <div class="col-12">
 									<select name="demo-category" id="demo-category">
 										<option value="">- Category -</option>
 										<option value="1">Manufacturing</option>
@@ -386,8 +409,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<option value="1">Administration</option>
 										<option value="1">Human Resources</option>
 									</select>
-								</div>
-								<div class="col-4 col-12-small">
+								</div> -->
+								<!-- <div class="col-4 col-12-small">
 									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
 									<label for="demo-priority-low">Low</label>
 								</div>
@@ -406,7 +429,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<div class="col-6 col-12-small">
 									<input type="checkbox" id="demo-human" name="demo-human" checked>
 									<label for="demo-human">Not a robot</label>
-								</div>
+								</div> -->
 								<div class="col-12">
 									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 								</div>
@@ -419,7 +442,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							</div>
 						</form>
 					</section>
-
+				</section>
+					<!--
 					<section>
 						<h4>Image</h4>
 						<h5>Fit</h5>
@@ -449,14 +473,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://twitter.com/JeffBucherDev" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+					<li><a href="https://www.instagram.com/calmincolorado/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/JeffBucherDev" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:JeffBucherDev@gmail.com?subject=Hello%20from%20Jeff%27s%20site" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Jeff Bucher</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</section>
 

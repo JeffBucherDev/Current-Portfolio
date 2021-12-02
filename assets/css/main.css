@@ -3511,8 +3511,20 @@ input, select, textarea {
 
 	}
 
-	/* My Customizations */
+	/* Customizations */
 
-	header.major{
-		
-	}
+#noImageDiv {
+	width: 100%;
+}
+
+#contactForm {
+	padding: 1rem 15rem;
+}
+
+#letsConnect{
+	padding-top: 2rem;
+	text-align: center;
+}
+#ffcoImg, #plpImg {
+	border: solid 3px #93A19F;
+}
