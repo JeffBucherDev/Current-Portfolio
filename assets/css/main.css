@@ -3525,6 +3525,10 @@ input, select, textarea {
 	padding-top: 2rem;
 	text-align: center;
 }
-#ffcoImg, #plpImg {
-	border: solid 3px #93A19F;
+#ffcoImg, #plpImg, #artPortfolio {
+	border: solid 5px #93A19F;
+}
+
+#profilePic {
+	width: 65%;
 }
